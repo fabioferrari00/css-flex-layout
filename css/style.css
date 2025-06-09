@@ -1,5 +1,109 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: 100%;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
+
+header {
+  padding: 15px 15px;
+  background-color: lightblue;
+  margin-bottom: 50px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+main {
+  margin: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-goldenrod {
+  background-color: goldenrod;
+}
+
+.bg-silver {
+  background-color: silver;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+.col-75 {
+  width: 75%;
+}
+
+.col-18 {
+  width: 18%;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-25.bg-blue,
+.col-75.bg-red,
+.col-20.bg-silver,
+.col-60.bg-goldenrod {
+  height: 75px;
+}
+
+.col-20.bg-silver,
+.col-60.bg-goldenrod {
+  height: 300px;
+}
+
+.col-60.bg-goldenrod {
+  min-height: 500px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.py-20 {
+  padding: 20px 0;
+}
+
+/* .left,
+.right,
+.center {
+  height: 300px;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.center {} */
